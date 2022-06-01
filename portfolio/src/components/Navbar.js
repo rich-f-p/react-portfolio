@@ -1,38 +1,37 @@
 import React from "react";
 
+const sNav = {
+    text:{
+    color: "white",
+    fontSize: "150%", 
+    },
+    bg:{
+        background: "rgba(0, 0, 0, 0.75)",
+        color:"white",
+        paddingTop: "5px",
+        paddingBottom: "5px",
+    }
+} 
 
 export default function navbar({ currentPage, handlePageChange }){
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg bg-secondary d-flex justify-content-around">
-                <a className="text-light navbar-brand" href="#">Richard Ferry</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav">
-                <li className="nav-item">
+        <div style={sNav.bg}>
+            <div className="container-fluid d-flex text-center justify-content-evenly">
+            <a className="navbar-brand" style={sNav.text} href="#">Richard Ferry</a>
+            </div>
+            <nav className="navbar d-flex justify-content-evenly">
                 <a href="#about"
                 onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active text-white' : 'nav-link text-white'}>About Me</a>
-                </li>
-                <li className="nav-item">
+                className={currentPage === 'About' ? ' active' : 'nav-link '}style={sNav.text}>About Me</a>
                 <a href="#project"
                 onClick={() => handlePageChange('Projects')}
-                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a>
-                </li>
-                <li className="nav-item">
+                className={currentPage === 'Projects' ? ' active ' : 'nav-link'}style={sNav.text}>Projects</a>
                 <a href="#resume"
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
-                </li>
-                <li className="nav-item">
+                className={currentPage === 'Resume' ? ' active' : 'nav-link'}style={sNav.text}>Resume</a>
                 <a href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
-                </li>
-            </ul>
-            </div>
+                className={currentPage === 'Contact' ? ' active' : 'nav-link'}style={sNav.text}>Contact</a>
             </nav>
         </div>
     );
