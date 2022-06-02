@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7720ab7.css",
-    "main.js": "/static/js/main.3e8b5c95.js",
-    "static/media/bookspot.png": "/static/media/bookspot.3fc40805a32e7a7a6bdd.png",
-    "static/media/profile.png": "/static/media/profile.3b42ea3da88d666a1ee0.png",
-    "static/media/notepad.jpg": "/static/media/notepad.8d25a18477d9b26aeebf.jpg",
-    "static/media/resume.pdf": "/static/media/resume.7bdcf5c8fe51dca5255f.pdf",
-    "static/media/pwa.png": "/static/media/pwa.fa802f55609977536d3a.png",
-    "index.html": "/index.html",
-    "main.e7720ab7.css.map": "/static/css/main.e7720ab7.css.map",
-    "main.3e8b5c95.js.map": "/static/js/main.3e8b5c95.js.map"
+    "main.css": "/rich-f-p/react-portfolio/static/css/main.e7720ab7.css",
+    "main.js": "/rich-f-p/react-portfolio/static/js/main.79dcb869.js",
+    "static/media/bookspot.png": "/rich-f-p/react-portfolio/static/media/bookspot.3fc40805a32e7a7a6bdd.png",
+    "static/media/profile.png": "/rich-f-p/react-portfolio/static/media/profile.3b42ea3da88d666a1ee0.png",
+    "static/media/notepad.jpg": "/rich-f-p/react-portfolio/static/media/notepad.8d25a18477d9b26aeebf.jpg",
+    "static/media/resume.pdf": "/rich-f-p/react-portfolio/static/media/resume.7bdcf5c8fe51dca5255f.pdf",
+    "static/media/pwa.png": "/rich-f-p/react-portfolio/static/media/pwa.fa802f55609977536d3a.png",
+    "index.html": "/rich-f-p/react-portfolio/index.html",
+    "main.e7720ab7.css.map": "/rich-f-p/react-portfolio/static/css/main.e7720ab7.css.map",
+    "main.79dcb869.js.map": "/rich-f-p/react-portfolio/static/js/main.79dcb869.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.3e8b5c95.js"
+    "static/js/main.79dcb869.js"
   ]
 }
