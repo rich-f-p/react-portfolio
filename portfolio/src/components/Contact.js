@@ -33,6 +33,18 @@ export default function Contact(){
         }
     };
 
+    const checkField = (e) => {
+        const {target} = e;
+        const inputType= target.name;
+        const inputVal = target.value;
+        if(inputType ==='name' && inputVal===''){
+            alert('this is required to contact');
+        }
+        if(inputType ==='email' && inputVal===''){
+            alert('this is required to contact');
+        }
+    }
+
     const submitForm = (e) =>{
         e.preventDefault();
         console.log(name);
@@ -56,11 +68,11 @@ export default function Contact(){
             <form>
                 <div className="form-group mt-3">
                     <label style={sCon.text}>Name</label>
-                    <input value={name}className="form-control" name="name" type='text' onChange={inputChange}  placeholder="Enter Name" />
+                    <input value={name}className="form-control" name="name" type='text' onChange={inputChange}  onMouseOut={checkField} placeholder="Enter Name" required/>
                 </div>
                 <div className="form-group mt-3">
                     <label style={sCon.text}>Email</label>
-                    <input value={email} name='email' type="email" className="form-control" onChange={inputChange} placeholder="Email" />
+                    <input value={email} name='email' type="email" className="form-control" onChange={inputChange} onMouseOut={checkField} placeholder="Email" required/>
                 </div>
                 <div className="form-group mt-3">
                     <label style={sCon.text}>Please enter details about topic.</label>
