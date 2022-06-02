@@ -4,6 +4,7 @@ const sNav = {
     text:{
     color: "white",
     fontSize: "150%", 
+    fontFamily: `'Playfair Display SC', serif`,
     },
     bg:{
         background: "rgba(0, 0, 0, 0.75)",
