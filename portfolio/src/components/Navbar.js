@@ -25,7 +25,7 @@ export default function navbar({ currentPage, handlePageChange }){
                 className={currentPage === 'About' ? ' active' : 'nav-link '}style={sNav.text}>About Me</a>
                 <a href="#project"
                 onClick={() => handlePageChange('Projects')}
-                className={currentPage === 'Projects' ? ' active ' : 'nav-link'}style={sNav.text}>Projects</a>
+                className={currentPage === 'Projects' ? ' active ' : 'nav-link'}style={sNav.text}>Portfolio</a>
                 <a href="#resume"
                 onClick={() => handlePageChange('Resume')}
                 className={currentPage === 'Resume' ? ' active' : 'nav-link'}style={sNav.text}>Resume</a>
