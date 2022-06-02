@@ -11,7 +11,7 @@ const background = {
 
 function App() {
   return (
-    <div style={background.bg}>
+    <div className='h-100' style={background.bg}>
       <Main />
     </div>
   );

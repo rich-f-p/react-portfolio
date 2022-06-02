@@ -9,14 +9,11 @@ const sAbout = {
         paddingBottom: "5px",
         fontSize:"150%"
     },
-    ul:{
-        listStyleType:"none",
-    }
 }
 
 export default function about(){
     return(
-    <div className="container mb-3 ct-text mt-3">
+    <div className="container mb-3 ct-text mt-5">
         <div>
             <img src={profile} style={sAbout.bg} className="img-fluid position-relative top-50 start-50 translate-middle-x rounded-circle" width="500px" height="450px">
             </img>
@@ -30,20 +27,6 @@ export default function about(){
             my role was to utilize Handlebars templating and javascript in order to design a responsive layout that is 
             user friendly. The project is also utilizing express,and express-session so that a user can have a personalized
             account to access certain content. Excited to utilize my skills in additional projects.</p>
-            <div className="container text-center rounded effect mt-3" style={sAbout.bg}>
-                <h3 >Skills:</h3>
-                <ul style={sAbout.ul}>
-                    <li>JavaScript</li>
-                    <li>Html</li>
-                    <li>CSS</li>
-                    <li>Express</li>
-                    <li>Responsive-layouts</li>
-                    <li>Tailwind</li>
-                    <li>Bootstrap</li>
-                    <li>Handlebars</li>
-                    <li>Teaching capabilities</li>
-                </ul>
-            </div>
     </div>
     )
 }
