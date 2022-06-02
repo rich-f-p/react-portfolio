@@ -55,16 +55,16 @@ export default function Contact(){
         <div className="container mt-3 vh-100" style={sCon.bg}>
             <form>
                 <div className="form-group mt-3">
-                    <label>Name</label>
+                    <label style={sCon.text}>Name</label>
                     <input value={name}className="form-control" name="name" type='text' onChange={inputChange}  placeholder="Enter Name" />
                 </div>
                 <div className="form-group mt-3">
-                    <label>Email</label>
+                    <label style={sCon.text}>Email</label>
                     <input value={email} name='email' type="email" className="form-control" onChange={inputChange} placeholder="Email" />
                 </div>
                 <div className="form-group mt-3">
-                    <label>Please enter details about topic.</label>
-                    <input value={text} className="form-control mb-3" name='text' type='text' onChange={inputChange} rows="3"></input>
+                    <label style={sCon.text}>Please enter details about topic.</label>
+                    <textarea value={text} className="form-control mb-3" name='text' type='text' onChange={inputChange} rows="3"></textarea>
                 </div>
                 <button type="button" className="btn btn-secondary" onClick={submitForm}>Submit</button>
             </form>
