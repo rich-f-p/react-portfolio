@@ -2,6 +2,9 @@ import React from "react";
 import Main from "../images/bookspot.png";
 import Note from "../images/notepad.jpg";
 import Pwa from "../images/pwa.png";
+import Day from "../images/day-planner.jpg";
+import Pj from "../images/pj-1-main.jpg";
+import Wd from "../images/wd-main.jpg";
 
 const portS = {
     fontSize: "150%",
@@ -32,7 +35,27 @@ export default function project(){
                 </div>
                 <img className="img-fluid w-100" src={Pwa} alt="Text-editor" />
             </div>
-
+            <div className="container">
+                <div className="d-flex justify-content-between">
+                    <a style={portS} href="https://rich-f-p.github.io/daily-planner/">Live</a>
+                    <a style={portS} href="https://github.com/rich-f-p/daily-planner">Repo</a>
+                </div>
+                <img className="img-fluid w-100" src={Day} alt="Day-planner" />
+            </div>
+            <div className="container">
+                <div className="d-flex justify-content-between">
+                    <a style={portS} href="https://rich-f-p.github.io/stock-portfolio-analyzer/">Live</a>
+                    <a style={portS} href="https://github.com/rich-f-p/stock-portfolio-analyzer">Repo</a>
+                </div>
+                <img className="img-fluid w-100" src={Pj} alt="stock-analyzer" />
+            </div>
+            <div className="container">
+                <div className="d-flex justify-content-between">
+                    <a style={portS} href="https://rich-f-p.github.io/weather-dashboard/">Live</a>
+                    <a style={portS} href="https://github.com/rich-f-p/weather-dashboard">Repo</a>
+                </div>
+                <img className="img-fluid w-100" src={Wd} alt="Text-editor" />
+            </div>
         </div>
     );
 };
