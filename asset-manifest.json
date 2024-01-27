@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e7720ab7.css",
-    "main.js": "/react-portfolio/static/js/main.7dd0358f.js",
+    "main.js": "/react-portfolio/static/js/main.f114e4ca.js",
     "static/media/bookspot.png": "/react-portfolio/static/media/bookspot.3fc40805a32e7a7a6bdd.png",
     "static/media/profile.png": "/react-portfolio/static/media/profile.3b42ea3da88d666a1ee0.png",
     "static/media/wd-main.jpg": "/react-portfolio/static/media/wd-main.d260c696db52d9fdaca4.jpg",
@@ -9,14 +9,13 @@
     "static/media/day-planner.jpg": "/react-portfolio/static/media/day-planner.2185c1a8edc39368bbd8.jpg",
     "static/media/notepad.jpg": "/react-portfolio/static/media/notepad.8d25a18477d9b26aeebf.jpg",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.7bdcf5c8fe51dca5255f.pdf",
-    "static/media/trap-talk.png": "/react-portfolio/static/media/trap-talk.b3f1b9309210f46394bd.png",
     "static/media/pwa.png": "/react-portfolio/static/media/pwa.fa802f55609977536d3a.png",
     "index.html": "/react-portfolio/index.html",
     "main.e7720ab7.css.map": "/react-portfolio/static/css/main.e7720ab7.css.map",
-    "main.7dd0358f.js.map": "/react-portfolio/static/js/main.7dd0358f.js.map"
+    "main.f114e4ca.js.map": "/react-portfolio/static/js/main.f114e4ca.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.7dd0358f.js"
+    "static/js/main.f114e4ca.js"
   ]
 }
