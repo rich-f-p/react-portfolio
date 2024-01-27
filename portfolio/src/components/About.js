@@ -18,15 +18,23 @@ export default function about(){
             <img src={profile} style={sAbout.bg} className="img-fluid position-relative top-50 start-50 translate-middle-x rounded-circle" width="500px" height="450px">
             </img>
         </div>
-        <p className="mt-3 rounded p-3" style={sAbout.bg}>Full stack web developer with a certificate in full stack web development from  UC Berkeley Extension. 
-            Bringing a business background, capable of creating an innovative user experience. With skills in HTML, CSS,  
-            JavaScript, and node.js, as well as the ability to meet criteria, provide creative feedback, and work in 
-            groups. Key knowledge in creating responsive mobile-first applications that are user friendly, utilized to 
-            create a portfolio page, weather dashboard, and continuing to apply is current projects. Capable of 
-            utilizing mysql for database development, and utilizing node.js for application use. In a recent project, 
-            my role was to utilize Handlebars templating and javascript in order to design a responsive layout that is 
-            user friendly. The project is also utilizing express,and express-session so that a user can have a personalized
-            account to access certain content. Excited to utilize my skills in additional projects.</p>
+        <p className="mt-3 rounded p-3" style={sAbout.bg}>Meet an innovative Full Stack Web Developer with a 
+        certificate in Full Stack Web Development from UC Berkeley Extension, blending a strong business 
+        background with a passion for creating cutting-edge user experiences. Proficient in HTML, CSS, 
+        JavaScript, and node.js, I not only meet project criteria but also inject creativity and thrive 
+        in collaborative group environments.<br></br><br></br>
+        Specializing in crafting responsive mobile-first applications, I've successfully built a diverse 
+        portfolio showcasing projects like a dynamic weather dashboard and an interactive portfolio page. 
+        I consistently apply and expand my skills in ongoing projects, ensuring I stay at the forefront of the 
+        latest web development trends.<br></br><br></br>
+        In the realm of database development, I wield MySQL with finesse, and my expertise extends to leveraging 
+        node.js for seamless application integration. In a recent project, I played a pivotal role in utilizing 
+        Handlebars templating and JavaScript to design a responsive layout that offers an exceptionally 
+        user-friendly experience. This project incorporates express and express-session to provide users with 
+        personalized accounts for accessing exclusive content.<br></br><br></br>
+        Eager to contribute my skills and creativity to future projects, I am a dynamic and forward-thinking Full 
+        Stack Web Developer, ready to tackle challenges and bring a unique perspective to any team.
+        </p>
     </div>
     )
 }
